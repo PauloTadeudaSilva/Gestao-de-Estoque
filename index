@@ -1,0 +1,48 @@
+html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <title>Controle de Estoque - Escola Italiana Eugenio Montale</title>
+    <script src="js/funcoes.js"></script>
+</head>
+<body onload="carregarTotalEstoque('totalEstoque')">
+    <header>
+        <h1>Controle de Estoque - Escola Italiana Eugenio Montale</h1>
+    </header>
+    <nav>
+        <a href="C:\Users\paulo.silva\Desktop\Univesp -PI\Eugenio_Montale\index.html">Home</a>
+        <a href="C:\Users\paulo.silva\Desktop\Univesp -PI\Eugenio_Montale\produtos.html">Produtos</a>
+        <a href="C:\Users\paulo.silva\Desktop\Univesp -PI\Eugenio_Montale\adicionar.html">Adicionar Produto</a>
+        <a href="CC:\Users\paulo.silva\Desktop\Univesp -PI\Eugenio_Montale\relatorios.html">Relatórios</a>
+    </nav>
+    <section>
+        <h2>Estoque de Material Escolar</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Código do Produto</th>
+                    <th>Quantidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lápis</td>
+                    <td>LP01</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Borracha</td>
+                    <td>BR01</td>
+                    <td>50</td>
+                </tr>
+                <!-- Adicione mais linhas conforme necessário -->
+            </tbody>
+        </table>
+    </section>
+    <footer>
+        <p>&copy; 2024 Escola Italiana Eugenio Montale. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
