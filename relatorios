@@ -1,0 +1,30 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/adicionar.css">
+    <title>Relatórios - Escola Italiana Eugenio Montale</title>
+    <script src="js/funcoes.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Relatórios - Escola Italiana Eugenio Montale</h1>
+    </header>
+    <nav>
+        <a href="C:\Users\paulo.silva\Desktop\Univesp -PI\Eugenio_Montale\index.html">Home</a>
+        <a href="C:\Users\paulo.silva\Desktop\Univesp -PI\Eugenio_Montale\produtos.html">Produtos</a>
+        <a href="C:\Users\paulo.silva\Desktop\Univesp -PI\Eugenio_Montale\adicionar.html">Adicionar Produto</a>
+        <a href="C:\Users\paulo.silva\Desktop\Univesp -PI\Eugenio_Montale\relatorios.html">Relatórios</a>
+    </nav>
+    <section>
+        <h2>Relatórios de Estoque</h2>
+        <p>Aqui estão alguns relatórios importantes sobre o estoque de material escolar:</p>
+        <ul>
+            <li><span>Total de Produtos em Estoque:</span> 150</li>
+            <li><span>Produto Mais Usado:</span> Lápis</li>
+            <li><span>Produto Menos Usado:</span> Caderno</li>
+            <!-- Adicione mais itens conforme necessário -->
+        </ul>
+    </section>
+</body>
+</html>
