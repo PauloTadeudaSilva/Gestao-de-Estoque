@@ -1,0 +1,42 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/produtos.css">
+    <title>Produtos - Escola Italiana Eugenio Montale</title>
+    <script src="js/funcoes.js"></script>
+</head>
+<body onload="listarEstoque()">
+    <header>
+        <h1>Produtos - Escola Italiana Eugenio Montale</h1>
+    </header>
+    <nav>
+        <a href="C:\Users\paulo.silva\Desktop\Univesp -PI\Eugenio_Montale\index.html">Home</a>
+        <a href="C:\Users\paulo.silva\Desktop\Univesp -PI\Eugenio_Montale\produtos.html">Produtos</a>
+        <a href="C:\Users\paulo.silva\Desktop\Univesp -PI\Eugenio_Montale\adicionar.html">Adicionar Produto</a>
+        <a href="C:\Users\paulo.silva\Desktop\Univesp -PI\Eugenio_Montale\relatorios.html">Relatórios</a>
+    </nav>
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Código do Produto</th>
+                <th>Quantidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lápis</td>
+                <td>LP01</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Borracha</td>
+                <td>BR01</td>
+                <td>50</td>
+            </tr>
+            <!-- Adicione mais linhas conforme necessário -->
+        </tbody>
+    </table>
+</body>
+</html>
